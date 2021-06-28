@@ -1,15 +1,16 @@
 import React from 'react';
-import {Container} from 'reactstrap';
- 
+import { Container } from 'reactstrap';
+import DogIndex from './DogIndex';
+
 const Dogs = () => {
 
   return (
     <Container className="App">
-      <br />
+      {/* <br />
       <h1 className="App-intro">
         For this challenge, write the logic to accomplish the following:
       </h1>
-      <hr/>
+      <hr />
       <ul>
         <li>Fetch a random image from this api: <a href="https://dog.ceo/dog-api/">here</a></li>
         <li>Save this image URL to the state of the DogIndex component</li>
@@ -17,10 +18,12 @@ const Dogs = () => {
         <li>Have a button that fetches a new image</li>
         <li>Make sure to include some good practice error handling</li>
       </ul>
-      <hr />
+      <hr /> */}
+      <DogIndex/>
     </Container>
+    
   );
 
 }
- 
+
 export default Dogs;
